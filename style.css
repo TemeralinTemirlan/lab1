@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    position: relative;
+}
+.newGame{
+    position: absolute;
+    border-radius:30px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 90px;
+    width:90px;
+    right: 46.8%;
+
+}
+.first{
+    margin-left: 120px;
+    margin-right: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    padding-top: 30px;
+}
+.second{
+    margin-right: 120px;
+    margin-left:130px;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    padding-top: 30px;
+}
+.randomButton{
+    margin: 120px;
+    padding: 20px;
+    text-align: center;
+}
+.random{
+    height: 250px;
+    width:250px;
+    border-radius:50%;
+    background-color:black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.secondLvl{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+}
+span{
+    font-style: italic;
+    text-transform: uppercase;
+}
+#down{
+    margin-top: 200px;
+}
+.pull{
+    color:white;
+    background-color:black;
+    width: 170px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius:30px;
+}
+.fix{
+    color:white;
+    background-color:black;
+    width: 170px;
+    border-radius:30px;
+
+}
+.twoButtons{
+    padding-left:13px;
+}
+.pull:hover{
+    cursor: pointer;
+}
+.fix:hover{
+    cursor: pointer;
+}
+.random:hover{
+    cursor: pointer;
+}
+.newGame:hover{
+    cursor: pointer;
+}
+
