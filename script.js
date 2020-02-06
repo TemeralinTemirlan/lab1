@@ -108,6 +108,9 @@ function fixFirstPoints(){
         alert('Please click New Game')
     }
     else{
+        if(totalPoints1==50 || totalPoints2==50){
+            alert('You can start new game')
+        }
         if(trackFix==1){
             totalPoints1=totalPoints1+randomFirst
             randomFirst=0
